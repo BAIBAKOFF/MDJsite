@@ -11,5 +11,3 @@ let elements = document.querySelectorAll(".element-animation");
 for (let elm of elements) {
   observer.observe(elm);
 }
-
-console.log("123");
