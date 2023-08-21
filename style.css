@@ -218,6 +218,10 @@ body {
     margin: 55px auto 0 auto;
   
   }
+
+  .title p {
+    font-size: 24px;
+  }
   
   .ds_btn {
     display: flex;
