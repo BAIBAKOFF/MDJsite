@@ -1,0 +1,429 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Acrom-Bold";
+  src: url("./fonts/Acrom-Bold/Acrom-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Acrom-light";
+  src: url("./fonts/Acrom-Light/Acrom-Light.ttf");
+}
+
+@font-face {
+  font-family: "Acrom-medium";
+  src: url("./fonts/Acrom-Medium/Acrom-Medium.ttf");
+}
+
+body {
+  background-image: url("./img/bg-main-15.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  overflow-x: hidden;
+
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+
+
+
+  background-color: rgb(129, 129, 129);
+}
+
+
+/* ========== MEDIA START ========== */
+/* @media () */
+
+/* ----- MEDIA HEADER START ----- */
+/* ----- MEDIA HEADER END ----- */
+
+
+
+/* ========== MEDIA END ========== */
+
+
+/* ========== HEADER START ========== */
+.header {
+  display: flex;
+  margin-top: 50px;
+}
+
+.conteiner {
+  width: 1600px;
+  margin: 0 auto;
+  /* padding: 0 10px 0 10px; */
+}
+
+.logoAndBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  
+  
+  max-width: 100%;
+  min-width: 300px;
+}
+
+.btn {
+  display: flex;
+  border-radius: 30px;
+
+  color: white;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Acrom-Bold";
+  height: 45px;
+  align-items: center;
+  padding: 0 10px 0 10px;
+
+  transition: box-shadow 0.5s ease-in-out;
+
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+
+  
+}
+
+
+
+.btn:hover {
+  
+  color: rgb(255, 255, 255);
+  
+
+}
+
+
+.btn_rules {
+  margin-left: 20px;
+  width: 202px;
+
+}
+
+/* ========== HEADER END ========== */
+
+
+/* ========== INFO START ========== */
+
+.info {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.up_info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1209px){
+  .YouT{
+    display: flex;
+    width: 501px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 1208px){
+  .up_info{
+    justify-content: center;
+  }
+
+  .videoYouT{
+    margin-top: 55px;
+  }
+
+  .YouT{
+    width: auto;
+  }
+
+  .footer-left{
+    width: 630px;
+    justify-content: center;
+    
+  }
+}
+
+/* @media (max-width: 971px){
+ 
+} */
+
+.information_videoYouT {
+  display: flex;
+  margin: 70px 10px 0 5px;
+  
+  align-items: center;
+}
+
+.information {
+ width: 630px;
+}
+
+.squad_game_server {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ 
+  height: 40px;
+
+  border-radius: 10em;
+
+  background-color: #893434;
+  color: #ffffff;
+
+  font-weight: 700;
+  font-family: "Acrom-Bold";
+  text-transform: uppercase;
+}
+
+.upper_text {
+  margin-top: 70px;
+
+  color: white;
+
+  font-family: "Acrom-Bold";
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: -3px;
+}
+
+.upper_text p span {
+  font-family: "Acrom-light";
+  font-weight: 100;
+}
+
+.milsim {
+  padding-top: 7px;
+}
+
+.line {
+  box-shadow: 1px 1px 8px 8px rgba(255, 217, 0, 0.199);
+  margin-top: 70px;
+  border: 3.5px solid #ac3737;
+  border-radius: 5px;
+  text-shadow: white;
+}
+
+.lower_text {
+  margin-top: 70px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Acrom-light";
+  line-height: 35px;
+  letter-spacing: 2px;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: background-color 0.5s ease-in-out;
+}
+
+.lower_text:hover {
+  background-color: rgba(20, 20, 20, 0.301);
+}
+
+.lower_text span {
+  font-weight: bold;
+  text-shadow: 3px 2px 5px #893434;
+}
+
+
+
+.two_btn {
+  display: flex;
+}
+
+.botton_soc{
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 55px;
+}
+
+.ds_btn {
+  display: flex;
+
+  text-decoration: none;
+  align-items: center;
+  color: #ffffff;
+
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Acrom-Bold";
+
+  background: #5a37acaf;
+  padding: 5px 20px 5px 20px;
+  width: 200px;
+  border-radius: 10em;
+ justify-content: space-between;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+
+
+.yt_btn {
+  display: flex;
+  text-decoration: none;
+  
+  color: #ffffff;
+
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Acrom-Bold";
+
+  background: #ac3737c0;
+  padding: 5px 20px 5px 20px;
+  width: 220px;
+  border-radius: 10em;
+  align-items: center;
+  justify-content: space-between;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.logo_ds {
+  height: 50px;
+  width: 50px;
+}
+
+.logo_yt {
+  height: 50px;
+  width: 50px;
+}
+
+.ds_btn:hover {
+  box-shadow: 0 0 5px 5px #5a37ac83;
+}
+
+.yt_btn:hover {
+  box-shadow: 0 0 5px 5px #ac37377e;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, #ffffff2a, transparent);
+  transition: all 650ms;
+}
+
+.btn:hover:before {
+  left: 100%;
+}
+
+/* RULES HTML */
+
+.rules {
+  display: flex;
+  margin-top: 100px;
+}
+
+.title p {
+  display: flex;
+  justify-content: center;
+
+  font-family: "Acrom-Bold";
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+.line_down {
+  display: flex;
+  margin: 0 auto;
+  box-shadow: 1px 1px 8px 8px rgba(255, 217, 0, 0.199);
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border: 3.5px solid #ac3737;
+  border-radius: 5px;
+  text-shadow: white;
+  width: 55%;
+}
+
+.list_rules {
+  background-color: white;
+  border-radius: 30px;
+
+  padding: 30px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+  font-family: "Acrom-medium";
+  font-weight: 500;
+  font-size: 18px;
+
+  width: 70%;
+}
+
+.element-animation {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.element-animation.element-show {
+  opacity: 1;
+  transition: all 1s;
+  transform: translateY(0%);
+}
+
+.list_rules span {
+  display: flex;
+  justify-content: center;
+  font-family: "Acrom-Bold";
+  font-weight: 700;
+  font-size: 30px;
+}
+/* ========== INFO END ========== */
+
+/* ========== FOOTER START ========== */
+
+.footer-flex {
+  display: flex;
+}
+
+.footer-left {
+  display: flex;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+
+.footer-text {
+  display: flex;
+
+  font-family: "Acrom-light";
+  font-size: 15px;
+  text-decoration: none;
+  
+
+  margin-top: 200px;
+  height: 40px;
+  color: white;
+}
+
+/* ========== FOOTER END ========== */
+
+
