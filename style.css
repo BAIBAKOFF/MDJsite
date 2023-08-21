@@ -22,6 +22,8 @@
   src: url("./fonts/Acrom-Medium/Acrom-Medium.ttf");
 }
 
+::-webkit-scrollbar { width: 0;}
+
 
 body {
   background-image: url("./img/bg-main-15.jpg");
@@ -43,6 +45,8 @@ body {
 
   background-color: rgb(129, 129, 129);
 }
+
+
 
 @media only screen and (min-device-width : 900px) and (max-device-width : 1280px) {
   
